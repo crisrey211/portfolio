@@ -6,6 +6,7 @@ import NavBar from "@/components/NavBar.jsx"
 import About from "@/components/About"
 import Skills from "@/components/Skills"
 import Footer from "@/components/Footer"
+import Projects from "./components/Projects"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <About />
       <Skills />
+      <Projects />
       <Footer />
     </main>
   )
