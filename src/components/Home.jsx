@@ -5,9 +5,10 @@ import viteLogo from '/vite.svg'
 import parqueNAtural from '@/assets/parqueNAtural.jpg'
 import reactLogo from '@/assets/react.svg'
 
-const Home = () => {
+export const Home = () => {
     return (
         <nav>
+            <div className={styles.name}>Christian</div>
             <ul>
                 <li>
                     <a href="">Home</a>
@@ -25,5 +26,3 @@ const Home = () => {
         </nav>
     )
 }
-
-export default Home
