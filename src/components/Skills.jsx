@@ -1,11 +1,10 @@
 import React from "react"
 import styles from "./Skills.module.css"
 import ccs3 from "./../assets/css3Logo.svg"
-import Estilos from "../assets/estilos"
 
 const Skills = () => {
   return (
-    <div className={styles.prueba}>
+    <div className={styles.prueba} id="skills">
       <h5>Skills</h5>
       <div className={styles.logos}>
         <div className={styles.logo}>

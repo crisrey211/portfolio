@@ -1,9 +1,9 @@
 import React from "react"
-import styles from "./Main.module.css"
+import styles from "./About.module.css"
 
-const Main = () => {
+const About = () => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="about">
       <div>I'm Christian Reynaltt</div>
       <div>
         A Frontend focused Web Developer building the Frontend of Websites and Web
@@ -19,4 +19,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default About
