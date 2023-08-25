@@ -5,11 +5,30 @@
   padding-bottom: 5rem;
 }
 .logo {
+  transition: all 0.5s;
   background-color: blue;
   width: 10rem;
   height: 12rem;
 }
+
 .logos {
   display: flex;
   justify-content: space-around;
+}
+
+.logo svg {
+  height: 50px;
+  transition: all 0.5s;
+  width: 50px;
+}
+
+.logo:hover svg {
+  fill: red;
+  transition: all 0.5s;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  color: black;
 }
