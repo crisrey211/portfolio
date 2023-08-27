@@ -1,9 +1,44 @@
+.container {
+  background-color: black;
+  color: white;
+}
 .footerUpper {
+  width: 100%;
   display: flex;
+  padding: 5rem 0 5rem 0;
 }
 .main {
   background-color: brown;
 }
+.name {
+  display: flex;
+  justify-content: flex-start;
+  background-color: blueviolet;
+}
+.content {
+  height: auto;
+  width: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightcoral;
+  width: auto;
+}
 .logos {
   display: flex;
+}
+.contact {
+  background-color: red;
+  width: 70%;
+}
+.social {
+  background-color: blue;
+  width: 30%;
+}
+
+.footerLowest {
+  font-family: "Inter";
+  font-size: x-small;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid #444;
 }

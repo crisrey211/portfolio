@@ -3,11 +3,11 @@ import styles from "./Footer.module.css"
 
 const Footer = () => {
   return (
-    <footer id="contact">
+    <footer id="contact" className={styles.container}>
       <div className={styles.footerUpper}>
         <div className={styles.contact}>
-          <span>Christian Reynaltt</span>
-          <h5>
+          <span className={styles.name}>Christian Reynaltt</span>
+          <h5 className={styles.content}>
             A Frontend focused Web Developer building the Frontend of Websites and Web
             Applications that leads to the success of the overall product
           </h5>
