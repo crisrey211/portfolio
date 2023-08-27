@@ -1,3 +1,9 @@
+.footerUpper {
+  display: flex;
+}
 .main {
   background-color: brown;
+}
+.logos {
+  display: flex;
 }
