@@ -3,9 +3,11 @@
   color: white;
 }
 .footerUpper {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   display: flex;
-  padding: 5rem 0 5rem 0;
+  padding: 3rem 0 5rem 0;
 }
 .main {
   background-color: brown;
@@ -14,19 +16,39 @@
   display: flex;
   justify-content: flex-start;
   background-color: blueviolet;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: system-ui;
+  font-weight: 700;
 }
+
 .content {
+  text-align: start;
+  font-size: x-small;
   height: auto;
-  width: 2rem;
+  width: 30rem;
   display: flex;
   justify-content: flex-start;
   background-color: lightcoral;
-  width: auto;
+  margin: 0;
+  padding-top: 1rem;
+  font-family: system-ui;
+  font-weight: 600;
 }
 .logos {
+  background-color: green;
+  width: auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  justify-content: start;
 }
 .contact {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 0 0 3rem;
   background-color: red;
   width: 70%;
 }
@@ -41,4 +63,10 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   border-top: 1px solid #444;
+}
+.logo {
+  width: 1.5rem;
+}
+svg {
+  fill: white;
 }
