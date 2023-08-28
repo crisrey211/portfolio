@@ -5,7 +5,7 @@ import ccs3 from "./../assets/css3Logo.svg"
 const Skills = () => {
   return (
     <div className={styles.main} id="skills">
-      <h5>Skills</h5>
+      <h5>Professional experience</h5>
       <div className={styles.logos}>
         <div className={styles.logo}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
