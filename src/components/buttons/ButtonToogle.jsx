@@ -1,11 +1,11 @@
 import React from "react"
 import styles from "./ButtonToogle.module.css"
 
-const ButtonToogle = ({ text }) => {
+const ButtonToogle = () => {
   return (
     <div className={styles.container}>
       <button type="button" className={styles.button}>
-        {text}
+        hola
       </button>
     </div>
   )
