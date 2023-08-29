@@ -1,0 +1,16 @@
+.container {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+}
+.accordionItemTitle {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 10rem 1rem 10rem;
+  border-radius: 0.25rem;
+  border-color: red yellow green transparent;
+
+  background-color: lightcoral;
+}
+.accordionItemContent {
+}

@@ -4,29 +4,8 @@
   width: 100%;
   padding-bottom: 5rem;
 }
-.logo {
-  transition: all 0.5s;
-  background-color: blue;
-}
-
-.logos {
-  display: flex;
-  justify-content: space-around;
-}
-
-.logo svg {
-  transition: all 0.5s;
-  height: 50px;
-  width: 50px;
-}
-
-.logo:hover svg {
-  fill: white;
-  transition: all 0.5s;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
+.titulo {
+  font-size: 22px;
+  font-weight: 600;
   color: black;
 }
