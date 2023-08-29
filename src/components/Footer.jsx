@@ -27,7 +27,9 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.footerLowest}>
-        <span>© Copyright 2023. Made by Christian Reynaltt</span>
+        <span className={styles.credits}>
+          © Copyright 2023. Made by Christian Reynaltt
+        </span>
       </div>
     </footer>
   )
