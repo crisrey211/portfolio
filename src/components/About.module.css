@@ -1,38 +1,9 @@
-.container {
-  padding-top: 15rem;
-}
-.main {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 15rem;
-}
-
-.name {
-  font-family: "inter";
-  font-size: 5rem;
-  font-weight: 900;
-  background: linear-gradient(90deg, #ffd700, #7b68ee, #3498db, #2ecc71, #ffd700);
-  background-clip: text;
-  animation: color 3s linear infinite;
-  background-size: 500%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: color 8s infinite;
-}
-
 .about {
   height: auto;
   width: 100%;
   display: flex;
 }
-.paragraph1 {
-  display: flex;
 
-  width: 50%;
-}
 .me {
   background-color: lightgreen;
   width: 50%;
@@ -62,4 +33,18 @@
   100% {
     background-position: -200% 0; /* Fin de la animación: fondo a la izquierda */
   }
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+.html5:hover {
+  fill: #e54d26;
+}
+.css:hover {
+  fill: #379ad4;
+}
+.javascript:hover {
+  fill: #e8d44d;
 }

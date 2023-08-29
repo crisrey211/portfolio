@@ -7,11 +7,13 @@ import About from "@/components/About"
 import Skills from "@/components/Skills"
 import Footer from "@/components/Footer"
 import Projects from "./components/Projects"
+import Main from "./components/Main"
 
 function App() {
   return (
     <main style={{ display: "flex", flexDirection: "column" }}>
       <NavBar />
+      <Main />
       <About />
       <Skills />
       <Projects />
