@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./Skills.module.css"
-import ccs3 from "./../assets/css3Logo.svg"
 
 const Skills = () => {
   return (
