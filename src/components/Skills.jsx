@@ -8,10 +8,14 @@ const Skills = () => {
       <h5 className={styles.titulo}>Professional Experience</h5>
       <Accordion
         occupation={"Front-end Developer"}
-        company={"CMZ"}
+        company={"CMZ Machinery Group SA"}
         date={"2022-present"}
         isOpen={true}
         description={"Empecé en CMZ como desarrollador web en el 2022"}
+        location={"Zaldibar, España"}
+        web={"www.CMZ.com"}
+        stack={["React", "HTML5", "CSS3", "JavaScript"]}
+        logo={""}
       />
     </div>
   )
