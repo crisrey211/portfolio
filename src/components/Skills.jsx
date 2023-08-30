@@ -11,7 +11,9 @@ const Skills = () => {
         company={"CMZ Machinery Group SA"}
         date={"2022-present"}
         isOpen={true}
-        description={"Empecé en CMZ como desarrollador web en el 2022"}
+        description={
+          "Empecé en CMZ como desarrollador web en el 2022 y mi función principal es programar un software ERP para un uso interno de la empresa"
+        }
         location={"Zaldibar, España"}
         web={"www.CMZ.com"}
         stack={["React", "HTML5", "CSS3", "JavaScript"]}

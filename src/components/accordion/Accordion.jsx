@@ -50,7 +50,7 @@ const Accordion = ({
             </div>
           </div>
           <div className={styles.description}>{description}</div>
-          <div className={styles.lowerContent}>holas</div>
+          {/* <div className={styles.lowerContent}>holas</div> */}
         </div>
       ) : (
         ""
