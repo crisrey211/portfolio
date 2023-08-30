@@ -7,8 +7,14 @@ const Projects = () => {
     <div id="projects" className={styles.container}>
       <h5 className={styles.titulo}>Projects</h5>
       <div className={styles.view}>
-        <div className={styles.image}>
-          <img src={captura_1} alt="" width="100" height="100" />
+        <div className={styles.imageContainer}>
+          <img
+            src={captura_1}
+            alt=""
+            width="100%"
+            height="100%"
+            className={styles.image}
+          />
         </div>
         <span className={styles.description}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid enim
