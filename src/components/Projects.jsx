@@ -5,9 +5,12 @@ import captura_1 from "../assets/captura1.png"
 const Projects = () => {
   return (
     <div id="projects" className={styles.container}>
-      <h5 className={styles.titulo}>My work</h5>
+      <h5 className={styles.titulo}>Projects</h5>
       <div className={styles.view}>
-        <span>
+        <div className={styles.image}>
+          <img src={captura_1} alt="" width="100" height="100" />
+        </div>
+        <span className={styles.description}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid enim
           possimus ipsam placeat perspiciatis at minus, sapiente eligendi est neque? Sunt
           facilis, ea perspiciatis dolor quibusdam, modi in ut nesciunt non nulla et quia
