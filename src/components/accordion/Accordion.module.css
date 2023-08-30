@@ -2,15 +2,19 @@
   background-color: purple;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin: 0;
 }
 .accordionItemTitle {
   display: flex;
-  justify-content: center;
+  align-items: center;
   padding: 1rem 10rem 1rem 10rem;
   border-radius: 0.25rem;
   border-color: red yellow green transparent;
-
   background-color: lightcoral;
 }
 .accordionItemContent {
+  background-color: limegreen;
+  padding: 1rem 10rem 1rem 10rem;
+  border-radius: 0.25rem;
 }
