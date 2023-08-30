@@ -2,6 +2,8 @@ import React from "react"
 import styles from "./Accordion.module.css"
 import LocationIcon from "@/components/icons/LocationIcon.jsx"
 import HouseDoorIcon from "@/components/icons/HouseDoorIcon.jsx"
+import ChevronDownIcon from "@/components/icons/ChevronDownIcon.jsx"
+import ChevronUpIcon from "@/components/icons/ChevronUpIcon.jsx"
 
 const Accordion = ({
   occupation,
@@ -25,13 +27,14 @@ const Accordion = ({
         </div>
         <div className={styles.rigthInformation}>
           <div>{date}</div>
-          <button
+          <div
             onClick={() => {
               setIsOpened(!isOpened)
             }}
+            className={styles.boton}
           >
-            Pulsame
-          </button>
+            {isOpened ? <ChevronUpIcon /> : <ChevronDownIcon />}
+          </div>
         </div>
       </div>
       {isOpened ? (
