@@ -4,6 +4,7 @@ import LocationIcon from "@/components/icons/LocationIcon.jsx"
 import HouseDoorIcon from "@/components/icons/HouseDoorIcon.jsx"
 import ChevronDownIcon from "@/components/icons/ChevronDownIcon.jsx"
 import ChevronUpIcon from "@/components/icons/ChevronUpIcon.jsx"
+import Badge from "../badge/Badge"
 
 const Accordion = ({
   occupation,
@@ -17,7 +18,8 @@ const Accordion = ({
   logo,
 }) => {
   const [isOpened, setIsOpened] = React.useState(isOpen)
-  console.log("object", isOpened)
+
+  const stacky = stack.map((item) => item)
 
   return (
     <div className={styles.container}>
@@ -50,7 +52,11 @@ const Accordion = ({
             </div>
           </div>
           <div className={styles.description}>{description}</div>
-          {/* <div className={styles.lowerContent}>holas</div> */}
+          <div className={styles.lowerContent}>
+            {stack.map((item) => (
+              <Badge> {item}</Badge>
+            ))}
+          </div>
         </div>
       ) : (
         ""
