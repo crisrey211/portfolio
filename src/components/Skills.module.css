@@ -2,7 +2,7 @@
   background-color: purple;
   height: auto;
   width: 100%;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -19,4 +19,9 @@
   font-size: 42px;
   font-weight: 700;
   color: black;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -6,19 +6,21 @@ const Skills = () => {
   return (
     <div className={styles.main} id="skills">
       <h5 className={styles.titulo}>Professional Experience</h5>
-      <Accordion
-        occupation={"Front-end Developer"}
-        company={"CMZ Machinery Group SA"}
-        date={"2022-present"}
-        isOpen={true}
-        description={
-          "Empecé en CMZ como desarrollador web en el 2022 y mi función principal es programar un software ERP para un uso interno de la empresa"
-        }
-        location={"Zaldibar, España"}
-        web={"www.CMZ.com"}
-        stack={["React", "HTML5", "CSS3", "JavaScript"]}
-        logo={""}
-      />
+      <div className={styles.container}>
+        <Accordion
+          occupation={"Front-end Developer"}
+          company={"CMZ Machinery Group SA"}
+          date={"2022-present"}
+          isOpen={true}
+          description={
+            "Empecé en CMZ como desarrollador web en el 2022 y mi función principal es programar un software ERP para un uso interno de la empresa"
+          }
+          location={"Zaldibar, España"}
+          web={"www.CMZ.com"}
+          stack={["React", "HTML5", "CSS3", "JavaScript"]}
+          logo={""}
+        />
+      </div>
     </div>
   )
 }
