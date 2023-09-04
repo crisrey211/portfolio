@@ -24,7 +24,6 @@
 }
 .accordionItemContent {
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   margin-top: 1.5rem;
 
@@ -76,4 +75,16 @@
 }
 .boton:hover {
   cursor: pointer;
+}
+.leftside {
+  background-color: lightskyblue;
+}
+.rightside {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+}
+.lowerContent {
+  display: flex;
+  justify-content: space-around;
 }

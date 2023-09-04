@@ -4,6 +4,7 @@ import LocationIcon from "@/components/icons/LocationIcon.jsx"
 import HouseDoorIcon from "@/components/icons/HouseDoorIcon.jsx"
 import ChevronDownIcon from "@/components/icons/ChevronDownIcon.jsx"
 import ChevronUpIcon from "@/components/icons/ChevronUpIcon.jsx"
+import CmzIcon from "@/components/icons/CmzIcon.jsx"
 import Badge from "../badge/Badge"
 
 const Accordion = ({
@@ -41,21 +42,26 @@ const Accordion = ({
       </div>
       {isOpened ? (
         <div className={styles.accordionItemContent}>
-          <div className={styles.upperContent}>
-            <div className={styles.location}>
-              <LocationIcon className={styles.logo} />
-              {location}
+          <div className={styles.leftside}>
+            <div className={styles.upperContent}>
+              <div className={styles.location}>
+                <LocationIcon className={styles.logo} />
+                {location}
+              </div>
+              <div className={styles.website}>
+                <HouseDoorIcon className={styles.logo} />
+                {web}
+              </div>
             </div>
-            <div className={styles.website}>
-              <HouseDoorIcon className={styles.logo} />
-              {web}
+            <div className={styles.description}>{description}</div>
+            <div className={styles.lowerContent}>
+              {stack.map((item, key) => (
+                <Badge key={key}>{item}</Badge>
+              ))}
             </div>
           </div>
-          <div className={styles.description}>{description}</div>
-          <div className={styles.lowerContent}>
-            {stack.map((item) => (
-              <Badge>{item}</Badge>
-            ))}
+          <div className={styles.rightside}>
+            <CmzIcon />
           </div>
         </div>
       ) : (

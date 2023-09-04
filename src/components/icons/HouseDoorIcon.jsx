@@ -7,7 +7,6 @@ const HouseDoorIcon = ({ className }) => {
       width="15"
       height="15"
       fill="currentColor"
-      class="bi bi-house-door-fill"
       viewBox="0 0 16 16"
       className={className}
     >
