@@ -15,6 +15,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #999 !important;
   padding: 0 2rem 0 2rem;
+  text-align: start;
 }
 .work {
   background-color: lightseagreen;

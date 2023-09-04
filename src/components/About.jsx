@@ -11,8 +11,13 @@ const About = () => {
         <section className={styles.me}>
           <h5 className={styles.titulo}>About me</h5>
           <p className={styles.section}>
-            Free developers from time-consuming, unnecessary processes that slow your
-            work, so you and your team can focus on creating.
+            Soy un desarrollador Front-end Web que crea diversas aplicaciones entendiendo
+            el producto y buscando su éxito. Mira algunos de mis proyectos personales.
+          </p>
+          <p className={styles.section}>
+            Me gusta compartir los conocimientos que he adquirido a lo largo de mi carrera
+            como desarrollador, por lo que puedo ayudar a la gente en lo que pueda. Siente
+            libre de contactarme o seguirme en LinkedIn.
           </p>
         </section>
         <section className={styles.work}>
