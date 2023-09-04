@@ -54,7 +54,7 @@ const Accordion = ({
           <div className={styles.description}>{description}</div>
           <div className={styles.lowerContent}>
             {stack.map((item) => (
-              <Badge> {item}</Badge>
+              <Badge>{item}</Badge>
             ))}
           </div>
         </div>
