@@ -1,8 +1,8 @@
 .container {
   color: black;
-  background-color: white;
+  background-color: #eaeaea;
   display: flex;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   width: 6rem;
   display: flex;
   justify-content: center;

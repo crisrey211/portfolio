@@ -4,7 +4,6 @@ import LocationIcon from "@/components/icons/LocationIcon.jsx"
 import HouseDoorIcon from "@/components/icons/HouseDoorIcon.jsx"
 import ChevronDownIcon from "@/components/icons/ChevronDownIcon.jsx"
 import ChevronUpIcon from "@/components/icons/ChevronUpIcon.jsx"
-import CmzIcon from "@/components/icons/CmzIcon.jsx"
 import Badge from "../badge/Badge"
 
 const Accordion = ({
@@ -60,9 +59,7 @@ const Accordion = ({
               ))}
             </div>
           </div>
-          <div className={styles.rightside}>
-            <CmzIcon />
-          </div>
+          <div className={styles.rightside}>{logo}</div>
         </div>
       ) : (
         ""

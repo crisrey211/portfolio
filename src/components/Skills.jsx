@@ -1,6 +1,7 @@
 import React from "react"
 import Accordion from "@/components/accordion/Accordion.jsx"
 import styles from "./Skills.module.css"
+import CmzIcon from "./icons/CmzIcon"
 
 const Skills = () => {
   return (
@@ -18,7 +19,7 @@ const Skills = () => {
           location={"Zaldibar, España"}
           web={"www.CMZ.com"}
           stack={["React", "HTML5", "CSS3", "JavaScript"]}
-          logo={""}
+          logo={<CmzIcon />}
         />
       </div>
     </div>
