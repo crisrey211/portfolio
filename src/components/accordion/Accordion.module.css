@@ -99,3 +99,13 @@
   justify-content: space-around;
   padding: 1rem 0 1rem 0;
 }
+
+@media screen and (min-width: 0) and (max-width: 1096px) {
+  .accordionItemContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .rightside {
+    margin-left: 2rem;
+  }
+}

@@ -49,3 +49,9 @@
 .javascript:hover {
   fill: #e8d44d;
 }
+@media screen and (min-width: 0) and (max-width: 600px) {
+  .logos {
+    display: flex;
+    flex-direction: column;
+  }
+}
