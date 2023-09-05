@@ -48,7 +48,7 @@ a:hover {
 }
 /* MEEDIA QUERYS */
 
-@media screen and (min-width: 0px) and (max-width: 536px) {
+@media screen and (min-width: 0px) and (max-width: 510px) {
   .navbar {
     display: none; /* Oculta el menú en pantallas pequeñas */
   }
@@ -57,11 +57,10 @@ a:hover {
   .iconNav {
     display: flex;
     align-items: center;
-    background-color: red;
   }
 }
 
-@media screen and (min-width: 537px) {
+@media screen and (min-width: 510px) {
   .navbar {
     display: flex; /* Oculta el menú en pantallas pequeñas */
   }
