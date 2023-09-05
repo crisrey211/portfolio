@@ -1,9 +1,10 @@
 import React from "react"
+import MenuIcon from "./icons/MenuIcon"
 import styles from "./NavBar.module.css"
 
 const Home = () => {
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.container}>
       <div className={styles.name}>Christian</div>
       <ul>
         <li>
@@ -22,6 +23,7 @@ const Home = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <MenuIcon className={styles.iconNav} />
     </nav>
   )
 }

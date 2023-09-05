@@ -1,4 +1,4 @@
-.navbar {
+.container {
   position: sticky;
   z-index: 9999999999;
   top: 0;
@@ -55,5 +55,11 @@ a:hover {
   /* Estilos para el icono de hamburguesa */
   .menu-icon {
     display: block;
+  }
+}
+
+@media screen and(max-width: 670px) {
+  .container {
+    background-color: red;
   }
 }
