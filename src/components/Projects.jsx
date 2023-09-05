@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./Projects.module.css"
-import captura_1 from "../assets/frame1.jpg"
+import Viewer from "./projectViewer/Viewer.jsx"
 
 const Projects = () => {
   return (
@@ -12,25 +12,13 @@ const Projects = () => {
           estudos con sus diferentes tecnologias aplicadas en cada una de ellas
         </span>
       </div>
-      <div className={styles.view}>
-        <div className={styles.imageContainer}>
-          <img
-            src={captura_1}
-            alt=""
-            width="100%"
-            height="100%"
-            className={styles.image}
-          />
-        </div>
-        <span className={styles.description}>
-          <h3>Portafolio</h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid enim
-          possimus ipsam placeat perspiciatis at minus, sapiente eligendi est neque? Sunt
-          facilis, ea perspiciatis dolor quibusdam, modi in ut nesciunt non nulla et quia
-          similique maiores consectetur ad voluptates officia officiis hic eius reiciendis
-          deleniti. Velit aperiam error corrupti?
-        </span>
-      </div>
+      <Viewer imagePosition={true}>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid enim
+        possimus ipsam placeat perspiciatis at minus, sapiente eligendi est neque? Sunt
+        facilis, ea perspiciatis dolor quibusdam, modi in ut nesciunt non nulla et quia
+        similique maiores consectetur ad voluptates officia officiis hic eius reiciendis
+        deleniti. Velit aperiam error corrupti? s
+      </Viewer>
     </div>
   )
 }
