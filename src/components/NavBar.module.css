@@ -44,22 +44,28 @@ a:hover {
   font-family: "Inter";
   color: black;
 }
-
+.navbar {
+}
 /* MEEDIA QUERYS */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 536px) {
   .navbar {
     display: none; /* Oculta el menú en pantallas pequeñas */
   }
 
   /* Estilos para el icono de hamburguesa */
-  .menu-icon {
-    display: block;
+  .iconNav {
+    display: flex;
+    align-items: center;
+    background-color: red;
   }
 }
 
-@media screen and(max-width: 670px) {
-  .container {
-    background-color: red;
+@media screen and (min-width: 537px) {
+  .navbar {
+    display: flex; /* Oculta el menú en pantallas pequeñas */
+  }
+  .iconNav {
+    display: none;
   }
 }

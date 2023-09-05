@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <nav className={styles.container}>
       <div className={styles.name}>Christian</div>
-      <ul>
+      <ul className={styles.navbar}>
         <li>
           <a href="#">Home</a>
         </li>
@@ -23,7 +23,9 @@ const Home = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <MenuIcon className={styles.iconNav} />
+      <div className={styles.iconNav}>
+        <MenuIcon />
+      </div>
     </nav>
   )
 }
