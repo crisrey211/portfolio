@@ -23,9 +23,9 @@ const Home = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className={styles.iconNav}>
+      {/* <div className={styles.iconNav}>
         <MenuIcon />
-      </div>
+      </div> */}
     </nav>
   )
 }
