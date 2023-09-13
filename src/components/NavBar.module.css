@@ -1,6 +1,7 @@
-.container {
+.containerHome {
   display: flex;
   justify-content: space-between;
+  background-color: lightcoral;
 }
 .name {
   display: flex;
@@ -9,6 +10,8 @@
   width: auto;
   align-items: center;
   font-family: "Inter";
+  font-weight: 700;
+  padding-left: var(--pl-1);
 }
 .navbar {
   display: flex;
@@ -17,6 +20,7 @@
   height: auto;
   width: 35rem;
   padding-left: 0;
+  padding-right: var(--pr-1);
 }
 ul {
   list-style: none;
@@ -33,4 +37,52 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .navbar {
+    display: none;
+  }
+  .iconNav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding-right: var(--pr-1);
+  }
+  .containerHome {
+    padding-top: var(--pt-1);
+    padding-bottom: var(--pb-1);
+  }
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+  .navbar {
+    display: none;
+  }
+  .iconNav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding-right: var(--pr-1);
+  }
+  .containerHome {
+    padding-top: var(--pt-1);
+    padding-bottom: var(--pb-1);
+  }
+}
+
+/* media --> mmonitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+  .iconNav {
+    display: none;
+  }
+}
+
+/* media --> mmonitores normales grandes*/
+@media (min-width: 82rem) {
+  .iconNav {
+    display: none;
+  }
 }

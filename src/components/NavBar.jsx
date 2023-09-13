@@ -4,7 +4,7 @@ import styles from "./NavBar.module.css"
 
 const Home = () => {
   return (
-    <nav className={styles.container}>
+    <nav className={styles.containerHome}>
       <div className={styles.name}>Christian</div>
       <ul className={styles.navbar}>
         <li>
@@ -23,9 +23,9 @@ const Home = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      {/* <div className={styles.iconNav}>
+      <div className={styles.iconNav}>
         <MenuIcon />
-      </div> */}
+      </div>
     </nav>
   )
 }

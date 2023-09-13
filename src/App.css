@@ -3,6 +3,10 @@
   margin: auto;
   padding: 0rem;
   text-align: center;
+  --pr-1: 1rem;
+  --pl-1: 1rem;
+  --pt-1: 1rem;
+  --pb-1: 1rem;
 }
 
 .logo {
