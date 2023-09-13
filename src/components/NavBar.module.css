@@ -1,7 +1,9 @@
 .containerHome {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  height: 5rem;
 }
 .name {
   display: flex;
@@ -30,12 +32,11 @@ li {
 }
 a {
   font-family: "Inter";
-  font-family: Inter;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color: black !important;
+  color: #595865 !important;
 }
 
 /* media --> Movil */
@@ -49,9 +50,10 @@ a {
     padding-right: var(--pr-1);
   }
   .containerHome {
+    height: 2rem;
     padding-top: var(--pt-1);
     padding-bottom: var(--pb-1);
-    border-bottom: #595865;
+    border-bottom: 1px solid gray;
   }
 }
 
@@ -66,8 +68,10 @@ a {
     padding-right: var(--pr-1);
   }
   .containerHome {
+    height: 2rem;
     padding-top: var(--pt-1);
     padding-bottom: var(--pb-1);
+    border-bottom: 1px solid gray;
   }
 }
 

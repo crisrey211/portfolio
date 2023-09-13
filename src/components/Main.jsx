@@ -5,7 +5,7 @@ import styles from "./Main.module.css"
 const Main = () => {
   return (
     <div className={styles.main}>
-      <h1 className={styles.name}>I'm Christian Reynaltt</h1>
+      <div className={styles.name}>I'm Christian Reynaltt</div>
       <span className={styles.paragraph1}>
         Vercel's frontend cloud gives developers the frameworks, workflows, and
         infrastructure to build a faster, more personalized Web.
