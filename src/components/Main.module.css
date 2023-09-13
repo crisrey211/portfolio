@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 span.overlayTitle {
-  display: block;
+  display: inline-block;
   font-size: 100px;
   line-height: 1.1;
   position: relative;
@@ -118,6 +118,18 @@ span.overlayTitle.title3::before {
 
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
+  .overlay {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  span.overlayTitle {
+    display: block;
+    font-size: 70px;
+    line-height: 1.1;
+    position: relative;
+  }
 }
 
 /* media --> monitores normales */
