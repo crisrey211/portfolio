@@ -19,26 +19,83 @@
   justify-content: space-around;
   align-items: center;
 }
-.name {
-  font-family: "Inter";
-  font-size: 6rem;
-  font-weight: 800;
-  background: linear-gradient(90deg, #ffd700, #7b68ee, #3498db, #2ecc71, #ffd700);
-  background-clip: text;
-  animation: color 3s linear infinite;
-  background-size: 500%;
+.overlay {
+  color: black;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+span.overlayTitle {
+  display: block;
+  font-size: 100px;
+  line-height: 1.1;
+  position: relative;
+}
+span.overlayTitle.title1::before {
+  background: linear-gradient(90deg, var(--start-color-1), var(--end-color-1));
+  content: "I'm";
+  position: absolute;
+  inset: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: color 8s infinite;
-  text-transform: uppercase;
-  background-color: #2ecc71;
+  animation: animated-gradient-title-1 9s infinite;
 }
-@keyframes color {
-  0% {
-    background-position: 0% 50%;
-  }
+span.overlayTitle.title2::before {
+  background: linear-gradient(90deg, var(--start-color-2), var(--end-color-2));
+  content: "Christian";
+  position: absolute;
+  inset: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated-gradient-title-2 9s infinite;
+}
+span.overlayTitle.title3::before {
+  background: linear-gradient(90deg, var(--start-color-3), var(--end-color-3));
+  content: "Reynaltt";
+  position: absolute;
+  inset: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated-gradient-title-3 9s infinite;
+}
+
+@keyframes animated-gradient-title-1 {
+  0%,
+  16.667%,
   100% {
-    background-position: 100% 50%;
+    opacity: 1;
+  }
+
+  33.333%,
+  83.333% {
+    opacity: 0;
+  }
+}
+
+@keyframes animated-gradient-title-2 {
+  0%,
+  16.667%,
+  66.667%,
+  100% {
+    opacity: 0;
+  }
+
+  33.333%,
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes animated-gradient-title-3 {
+  0%,
+  50%,
+  100% {
+    opacity: 0;
+  }
+
+  66.667%,
+  83.333% {
+    opacity: 1;
   }
 }
 

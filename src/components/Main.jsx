@@ -5,7 +5,11 @@ import styles from "./Main.module.css"
 const Main = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.name}>I'm Christian Reynaltt</div>
+      <div className={styles.overlay}>
+        <span className={`${styles.overlayTitle}  ${styles.title1}`}>I'm</span>
+        <span className={`${styles.overlayTitle}  ${styles.title2}`}>Christian</span>
+        <span className={`${styles.overlayTitle}  ${styles.title3}`}>Reynaltt</span>
+      </div>
       <span className={styles.paragraph1}>
         Vercel's frontend cloud gives developers the frameworks, workflows, and
         infrastructure to build a faster, more personalized Web.

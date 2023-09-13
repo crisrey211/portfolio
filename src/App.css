@@ -7,6 +7,12 @@
   --pl-1: 1rem;
   --pt-1: 1rem;
   --pb-1: 1rem;
+  --start-color-1: #007cf0;
+  --start-color-2: #7928ca;
+  --start-color-3: #ff4d4d;
+  --end-color-1: #00dfd8;
+  --end-color-2: #ff0080;
+  --end-color-3: #f9cb28;
 }
 
 .logo {
