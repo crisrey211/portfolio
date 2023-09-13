@@ -10,7 +10,8 @@
 .paragraph1 {
   display: flex;
   color: #808080;
-  width: 50%;
+  width: 20rem;
+  padding-top: var(--pt-1);
 }
 .botones {
   display: flex;
@@ -101,6 +102,18 @@ span.overlayTitle.title3::before {
 
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
+  .overlay {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  span.overlayTitle {
+    display: block;
+    font-size: 70px;
+    line-height: 1.1;
+    position: relative;
+  }
 }
 
 /* media --> iPad */
