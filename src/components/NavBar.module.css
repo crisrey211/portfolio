@@ -1,22 +1,21 @@
 .containerHome {
   display: flex;
   justify-content: space-between;
-  background-color: lightcoral;
+  background-color: white;
 }
 .name {
   display: flex;
-  background-color: lightgreen;
   height: auto;
   width: auto;
   align-items: center;
   font-family: "Inter";
   font-weight: 700;
   padding-left: var(--pl-1);
+  color: black;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: aquamarine;
   height: auto;
   width: 35rem;
   padding-left: 0;
@@ -31,12 +30,12 @@ li {
 }
 a {
   font-family: "Inter";
-  color: #595865;
   font-family: Inter;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color: black !important;
 }
 
 /* media --> Movil */
@@ -46,13 +45,13 @@ a {
   }
   .iconNav {
     display: flex;
-    background-color: white;
     align-items: center;
     padding-right: var(--pr-1);
   }
   .containerHome {
     padding-top: var(--pt-1);
     padding-bottom: var(--pb-1);
+    border-bottom: #595865;
   }
 }
 
@@ -63,7 +62,6 @@ a {
   }
   .iconNav {
     display: flex;
-    background-color: white;
     align-items: center;
     padding-right: var(--pr-1);
   }
@@ -73,14 +71,14 @@ a {
   }
 }
 
-/* media --> mmonitores normales */
+/* media --> monitores normales */
 @media (min-width: 62rem) and (max-width: 82rem) {
   .iconNav {
     display: none;
   }
 }
 
-/* media --> mmonitores normales grandes*/
+/* media --> monitores normales grandes*/
 @media (min-width: 82rem) {
   .iconNav {
     display: none;
