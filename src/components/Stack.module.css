@@ -1,0 +1,82 @@
+.stackContainer {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding-bottom: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e54d26;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+  line-height: 1;
+  width: 20rem;
+
+  font-size: 42px;
+  font-weight: 700;
+  color: black;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8d44d;
+  width: 50rem;
+  padding-left: var(--pl-1);
+  padding-right: var(--pr-1);
+}
+.html5:hover {
+  fill: #e54d26;
+  width: 8rem;
+  height: 8rem;
+}
+.css:hover {
+  fill: #379ad4;
+  width: 8rem;
+  height: 8rem;
+}
+.javascript:hover {
+  fill: #e8d44d;
+  width: 8rem;
+  height: 8rem;
+}
+.react:hover {
+  fill: #5ed4f3;
+  width: 8rem;
+  height: 8rem;
+}
+.git:hover {
+  fill: #e94d2e;
+  width: 8rem;
+  height: 8rem;
+}
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .logos {
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: var(--pt-1);
+  }
+  .logo {
+    width: 150px; /* Ancho de cada elemento */
+    height: 150px;
+  }
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
+}

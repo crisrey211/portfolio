@@ -1,11 +1,11 @@
 import React from "react"
 import Accordion from "@/components/accordion/Accordion.jsx"
-import styles from "./Skills.module.css"
+import styles from "./Stack.module.css"
 import CmzIcon from "./icons/CmzIcon"
 
-const Skills = () => {
+const Stack = () => {
   return (
-    <div className={styles.main} id="skills">
+    <div className={styles.main} id="stack">
       <h5 className={styles.titulo}>Professional Experience</h5>
       <div className={styles.container}>
         <Accordion
@@ -26,4 +26,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Stack
