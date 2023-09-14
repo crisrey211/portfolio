@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e54d26;
 }
 .titulo {
   display: flex;
@@ -25,8 +24,7 @@
 .logos {
   display: flex;
   justify-content: space-between;
-  background-color: lightcoral;
-  width: 50rem;
+  width: 80rem;
   padding-left: var(--pl-1);
   padding-right: var(--pr-1);
 }
@@ -62,6 +60,10 @@
   width: 8rem;
   height: 8rem;
 }
+span {
+  color: grey;
+}
+
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .logos {

@@ -15,10 +15,10 @@ function App() {
       <NavBar />
       <Main />
       <About />
-      {/* <Stack /> */}
+      <Stack />
       {/* <Experience />
-      <Projects />
-      <Footer /> */}
+      <Projects /> */}
+      <Footer />
     </MainApp>
   )
 }
