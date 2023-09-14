@@ -62,11 +62,27 @@
   .about {
     display: flex;
     flex-direction: column;
+    background-color: black;
+  }
+  .work,
+  .me {
+    width: 100%;
+  }
+
+  .rightSide {
+    width: 100%;
+  }
+  .information {
+    width: 100%;
   }
 }
 
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* media --> monitores normales */

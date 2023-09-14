@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <Main />
       <About />
-      <Stack />
+      {/* <Stack /> */}
       {/* <Experience />
       <Projects />
       <Footer /> */}
