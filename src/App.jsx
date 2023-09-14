@@ -16,8 +16,8 @@ function App() {
       <Main />
       <About />
       <Stack />
-      {/* <Experience />
-      <Projects /> */}
+      {/* <Experience /> */}
+      <Projects />
       <Footer />
     </MainApp>
   )

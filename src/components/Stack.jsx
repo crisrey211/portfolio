@@ -5,6 +5,7 @@ import Html5LogoIcon from "./icons/Html5LogoIcon.jsx"
 import JavaScriptLogoIcon from "./icons/JavaScriptLogoIcon"
 import ReactIcon from "./icons/ReactIcon"
 import GitIcon from "./icons/GitIcon"
+import FigmaIcon from "./icons/FigmaIcon"
 
 const Stack = () => {
   return (
@@ -30,6 +31,10 @@ const Stack = () => {
         <div className={styles.logo}>
           <GitIcon className={styles.git} />
           <span>Git</span>
+        </div>
+        <div className={styles.logo}>
+          <FigmaIcon className={styles.git} />
+          <span>Figma</span>
         </div>
       </div>
     </div>

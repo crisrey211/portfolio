@@ -20,9 +20,15 @@ const Footer = () => {
             <span className={styles.name}>Social</span>
           </div>
           <div className={styles.logos}>
-            <LinkedInIcon className={styles.logo} />
-            <GithubIcon className={styles.logo} />
-            <EnvelopeIcon className={styles.logo} />
+            <LinkedInIcon
+              className={styles.logo}
+              href={"https://www.linkedin.com/in/christianreynaltt"}
+            />
+            <GithubIcon className={styles.logo} href={"https://github.com/crisrey211"} />
+            <EnvelopeIcon
+              className={styles.logo}
+              href={"mailto:christian_reynaltt@hotmail.com"}
+            />
           </div>
         </div>
       </div>

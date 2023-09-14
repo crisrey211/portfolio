@@ -1,8 +1,8 @@
 import React from "react"
 
-const LinkedInIcon = ({ className }) => {
+const LinkedInIcon = ({ className, href }) => {
   return (
-    <a className={className} href="https://www.linkedin.com/in/christianreynaltt">
+    <a className={className} href={href}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

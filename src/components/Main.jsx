@@ -15,8 +15,8 @@ const Main = () => {
         infrastructure to build a faster, more personalized Web.
       </span>
       <div className={styles.botones}>
-        <Button text="Projects" />
-        <Button text="Contact me" />
+        <Button text="Projects" href={"#projects"} />
+        <Button text="Contact me" href={"mailto:christian_reynaltt@hotmail.com"} />
       </div>
     </div>
   )

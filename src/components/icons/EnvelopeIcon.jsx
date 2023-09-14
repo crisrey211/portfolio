@@ -1,8 +1,8 @@
 import React from "react"
 
-const EnvelopeIcon = ({ className }) => {
+const EnvelopeIcon = ({ className, href }) => {
   return (
-    <a className={className} href="https://github.com/crisrey211">
+    <a className={className} href={href}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

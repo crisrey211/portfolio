@@ -1,6 +1,7 @@
-.container {
+.containerProject {
   height: auto;
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .titulo {
   display: flex;
@@ -35,9 +36,14 @@
 }
 .imageContainer {
   display: flex;
-  align-items: center;
-  width: 65rem;
-  height: 24rem;
+  justify-content: center;
+  height: 400px; /* Altura deseada del contenedor */
+  margin: 0;
+}
+.imageContainer img {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+  border-radius: 1rem;
 }
 .description {
   color: black;
@@ -52,4 +58,24 @@
   border-radius: 0.5rem;
   border: 1px solid #eaeaea;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .containerProject {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
 }
