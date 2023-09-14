@@ -2,6 +2,7 @@
   height: auto;
   width: 100%;
   display: flex;
+  background-color: #fafafa;
 }
 
 .me {
@@ -18,40 +19,54 @@
   text-align: start;
 }
 .work {
-  background-color: lightseagreen;
   width: 50%;
-}
-.titulo {
-  font-size: 22px;
-  font-weight: 600;
-  color: black;
-}
-
-@keyframes color {
-  0% {
-    background-position: 200% 0; /* Inicio de la animación: fondo a la derecha */
-  }
-  100% {
-    background-position: -200% 0; /* Fin de la animación: fondo a la izquierda */
-  }
-}
-
-.logos {
+  height: auto;
+  background-color: lightcoral;
   display: flex;
   justify-content: center;
 }
-.html5:hover {
-  fill: #e54d26;
+.christian {
+  display: block;
+  align-items: center;
+  width: 19rem;
 }
-.css:hover {
-  fill: #379ad4;
+.titulo {
+  display: flex;
+  justify-content: start;
+  font-family: "Inter";
+  line-height: 1;
+  font-size: 42px;
+  font-weight: 700;
+  color: black;
+  width: inherit;
 }
-.javascript:hover {
-  fill: #e8d44d;
+.fotoContainer {
+  display: flex;
+  justify-content: center;
+  height: 400px; /* Altura deseada del contenedor */
+  margin: 0;
 }
-@media screen and (min-width: 0) and (max-width: 600px) {
-  .logos {
+.fotoContainer img {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+}
+
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .about {
     display: flex;
     flex-direction: column;
   }
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
 }

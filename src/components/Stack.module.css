@@ -25,11 +25,18 @@
 .logos {
   display: flex;
   justify-content: space-between;
-  background-color: #e8d44d;
+  background-color: lightcoral;
   width: 50rem;
   padding-left: var(--pl-1);
   padding-right: var(--pr-1);
 }
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .html5:hover {
   fill: #e54d26;
   width: 8rem;
@@ -66,11 +73,27 @@
   .logo {
     width: 150px; /* Ancho de cada elemento */
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
+  .logos {
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: var(--pt-1);
+  }
+  .logo {
+    width: 150px; /* Ancho de cada elemento */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* media --> monitores normales */
