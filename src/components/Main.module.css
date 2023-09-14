@@ -105,12 +105,11 @@ span.overlayTitle.title3::before {
   .overlay {
     color: black;
     font-size: 2rem;
-    font-weight: 700;
     text-transform: uppercase;
   }
   span.overlayTitle {
     display: block;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 1.1;
     position: relative;
   }
@@ -121,7 +120,6 @@ span.overlayTitle.title3::before {
   .overlay {
     color: black;
     font-size: 2rem;
-    font-weight: 700;
     text-transform: uppercase;
   }
   span.overlayTitle {
