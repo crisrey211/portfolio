@@ -23,7 +23,7 @@ const About = () => {
             <p className={styles.section}>
               Me gusta compartir los conocimientos que he adquirido a lo largo de mi
               carrera como desarrollador, por lo que puedo ayudar a la gente en lo que
-              pueda. Siente libre de contactarme o seguirme en LinkedIn.
+              pueda. Siéntete libre de contactarme o seguirme en LinkedIn.
             </p>
           </div>
         </div>
