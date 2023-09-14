@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   border-right: 1px solid purple;
+  margin-top: 1rem;
 }
 .leftSide {
   display: block;

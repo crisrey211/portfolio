@@ -7,7 +7,7 @@ const About = () => {
       <section className={styles.work}>
         <div className={styles.leftSide}>
           <div className={styles.fotoContainer}>
-            <img src="../../public/chris.jpg" />
+            <img src="/chris.jpg" />
           </div>
         </div>
       </section>
