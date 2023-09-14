@@ -14,11 +14,11 @@
 .work {
   width: 50%;
   height: auto;
-  background-color: lightcoral;
   display: flex;
   justify-content: center;
-  border-right: 1px solid purple;
-  margin-top: 1rem;
+  border-right: 1px solid gray;
+  margin-top: var(--mt-3);
+  margin-bottom: var(--mb-3);
 }
 .leftSide {
   display: block;
@@ -28,7 +28,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: lightgreen;
   width: 50%;
 }
 .rightSide {
@@ -57,6 +56,7 @@
 .fotoContainer img {
   max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
   height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+  border-radius: 1rem;
 }
 
 /* media --> Movil */
@@ -64,7 +64,6 @@
   .about {
     display: flex;
     flex-direction: column;
-    background-color: black;
   }
   .work,
   .me {
@@ -75,7 +74,12 @@
     width: 100%;
   }
   .information {
-    width: 100%;
+    width: 80%;
+    margin-left: var(--ml-1);
+  }
+  .titulo {
+    width: 70%;
+    margin-left: var(--ml-1);
   }
 }
 
@@ -84,6 +88,18 @@
   .about {
     display: flex;
     flex-direction: column;
+  }
+  .work,
+  .me {
+    width: 100%;
+  }
+
+  .rightSide {
+    width: 100%;
+    padding-left: var(--pl-3);
+  }
+  .information {
+    width: 100%;
   }
 }
 
