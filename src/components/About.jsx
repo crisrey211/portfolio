@@ -6,9 +6,8 @@ const About = () => {
     <div className={styles.about} id="about">
       <section className={styles.work}>
         <div className={styles.leftSide}>
-          <h5 className={styles.titulo}>Mi foto</h5>
           <div className={styles.fotoContainer}>
-            <img src="../../src/assets/chris.jpg" />
+            <img src="../../public/chris.jpg" />
           </div>
         </div>
       </section>

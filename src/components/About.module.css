@@ -17,6 +17,7 @@
   background-color: lightcoral;
   display: flex;
   justify-content: center;
+  border-right: 1px solid purple;
 }
 .leftSide {
   display: block;

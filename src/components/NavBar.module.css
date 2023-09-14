@@ -4,6 +4,10 @@
   border-bottom: 1px solid gray;
   align-items: center;
   height: 5rem;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
 }
 .name {
   display: flex;
