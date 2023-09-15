@@ -1,16 +1,18 @@
 import React from "react"
 import styles from "./Viewer.module.css"
 
-const Viewer = ({ children, imagePosition }) => {
+const Viewer = ({ children, imagePosition, src }) => {
   return (
-    <div className={styles.view}>
+    <div className={styles.viewContainer}>
       <div className={styles.imageContainer}>
-        <img src="/project1.PNG" width="100%" height="100%" className={styles.image} />
+        <img src={src} className={styles.image} />
       </div>
-      <span className={styles.description}>
-        <h3>Portafolio</h3>
-        {children}
-      </span>
+      <div className={styles.descriptionContainer}>
+        <h3 className={styles.title}>Portafolio</h3>
+        <div className={styles.description}>
+          <div className={styles.text}>{children}</div>
+        </div>
+      </div>
     </div>
   )
 }

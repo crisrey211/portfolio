@@ -12,7 +12,7 @@ const Projects = () => {
           estudos con sus diferentes tecnologias aplicadas en cada una de ellas.
         </p>
       </div>
-      <Viewer imagePosition={true}>
+      <Viewer imagePosition={true} src="/project1.PNG">
         Mi primer proyecto a nivel personal ha sido el portafolio, que aunque no es nada
         complicado, requiere tiempo en el diseño del figma. Una vez hecho esa primera
         parte, lo siguiente era maquetarlo para poder publicar mi portafolio.

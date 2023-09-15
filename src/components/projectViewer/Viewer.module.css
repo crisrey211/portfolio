@@ -1,4 +1,4 @@
-.view {
+.viewContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,47 +8,56 @@
 .imageContainer {
   display: flex;
   justify-content: center;
-  height: 400px; /* Altura deseada del contenedor */
+  height: 300px; /* Altura deseada del contenedor */
   margin: 0;
-  border: 1px solid red;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .imageContainer img {
   max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
   height: auto; /* Mantiene la proporción de aspecto original de la imagen */
   border-radius: 1rem;
 }
-.description {
+.descriptionContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   color: black;
   margin-left: 3rem;
   padding: 1rem 0 1rem 0;
-  border-radius: 0.5rem;
-  border: 1px solid #eaeaea;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  width: 95rem;
+  width: 50rem;
 }
-
+.description {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: start;
+}
+.text {
+  width: 75%;
+  color: gray;
+}
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
-  .view {
+  .viewContainer {
+    display: flex;
     flex-direction: column;
   }
-  .description {
-    width: 100%;
-    margin: 0;
-    margin-top: var(--mt-1);
+  .descriptionContainer {
+    width: 20rem;
+  }
+  .imageContainer {
+    width: "1rem";
+    height: "1rem";
+  }
+  .image {
+    width: "1rem";
+    height: "1rem";
   }
 }
 
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
-  .view {
-    flex-direction: column;
-  }
-  .description {
-    width: 100%;
-    margin: 0;
-    margin-top: var(--mt-1);
-  }
 }
 
 /* media --> monitores normales */
