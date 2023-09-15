@@ -7,10 +7,10 @@ const Projects = () => {
     <div id="projects" className={styles.containerProject}>
       <h5 className={styles.titulo}>Projects</h5>
       <div className={styles.headerContainer}>
-        <span className={styles.headerText}>
+        <p className={styles.headerText}>
           Aqui podrás ver algunos de mis proyectos personales y sus diferentes casos de
-          estudos con sus diferentes tecnologias aplicadas en cada una de ellas
-        </span>
+          estudos con sus diferentes tecnologias aplicadas en cada una de ellas.
+        </p>
       </div>
       <Viewer imagePosition={true}>
         Mi primer proyecto a nivel personal ha sido el portafolio, que aunque no es nada

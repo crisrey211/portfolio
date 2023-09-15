@@ -1,63 +1,34 @@
 .containerProject {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   height: auto;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .titulo {
-  display: flex;
-  justify-content: center;
+  font-family: system-ui;
   line-height: 1;
-  margin: 5rem 0 2rem 0;
+  width: 100%;
+  height: auto;
   font-size: 42px;
+  font-weight: 700;
   color: black;
 }
 
 .headerContainer {
   display: flex;
   justify-content: center;
-  line-height: 1;
-  text-align: center;
   width: 100%;
-  margin-bottom: 2rem;
 }
 .headerText {
-  display: flex;
-  justify-content: center;
+  font-family: "Inter";
+  color: #999 !important;
+  text-align: start;
+  font-size: 2rem;
+  font-weight: 300;
   width: 50%;
-  color: black;
-}
-
-.view {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 3rem 1rem 3rem;
-  background-color: white;
-}
-.imageContainer {
-  display: flex;
-  justify-content: center;
-  height: 400px; /* Altura deseada del contenedor */
-  margin: 0;
-}
-.imageContainer img {
-  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
-  height: auto; /* Mantiene la proporción de aspecto original de la imagen */
-  border-radius: 1rem;
-}
-.description {
-  color: black;
-  margin-left: 3rem;
-  padding: 1rem 0 1rem 0;
-  border-radius: 0.5rem;
-  border: 1px solid #eaeaea;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  width: 95rem;
-}
-.image {
-  border-radius: 0.5rem;
-  border: 1px solid #eaeaea;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  overflow: hidden; /* Oculta el contenido que desborde */
 }
 
 /* media --> Movil */

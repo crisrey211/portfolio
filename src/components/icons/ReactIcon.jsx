@@ -19,12 +19,6 @@ const ReactIcon = ({ className }) => {
           fill={className}
         />{" "}
       </g>{" "}
-      <defs>
-        {" "}
-        <clipPath id="clip0_950_642">
-          <rect width="24" height="24" fill="white" />{" "}
-        </clipPath>{" "}
-      </defs>{" "}
     </svg>
   )
 }
