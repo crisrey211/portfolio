@@ -83,7 +83,7 @@ span {
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
   .logos {
-    width: 20rem;
+    width: 40rem;
     display: flex;
     flex-wrap: wrap;
     padding-top: var(--pt-1);
@@ -99,6 +99,9 @@ span {
 
 /* media --> monitores normales */
 @media (min-width: 62rem) and (max-width: 82rem) {
+  .logos {
+    width: 62rem;
+  }
 }
 
 /* media --> monitores normales grandes*/

@@ -9,8 +9,8 @@ const Home = () => {
     <nav className={styles.containerHome}>
       <div className={styles.name}>Christian</div>
       <ul className={styles.navbar}>
-        {menuItems.map((item) => (
-          <li>
+        {menuItems.map((item, index) => (
+          <li key={index}>
             <a href={`#${item.toLocaleLowerCase()}`}>{item}</a>
           </li>
         ))}
