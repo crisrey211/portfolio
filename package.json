@@ -2,12 +2,14 @@
   "name": "portafolio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "i18next-scanner": " npx i18next-scanner",
+    "i18next-scanner-loc": "npx i18next-scanner"
   },
   "dependencies": {
     "i18next": "^23.5.1",

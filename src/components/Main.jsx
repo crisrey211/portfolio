@@ -1,12 +1,15 @@
 import React from "react"
 import Button from "./buttons/Button"
 import styles from "./Main.module.css"
+import { t } from "i18next"
 
 const Main = () => {
   return (
     <div className={styles.main}>
       <div className={styles.overlay}>
-        <span className={`${styles.overlayTitle}  ${styles.title1}`}>I'm</span>
+        <span className={`${styles.overlayTitle}  ${styles.title1}`}>
+          {t("im", "I'm")}
+        </span>
         <span className={`${styles.overlayTitle}  ${styles.title2}`}>Christian</span>
         <span className={`${styles.overlayTitle}  ${styles.title3}`}>Reynaltt</span>
       </div>
