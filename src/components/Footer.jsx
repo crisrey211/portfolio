@@ -21,7 +21,7 @@ const Footer = () => {
           </h5>
         </div>
         <div className={styles.social}>
-          <div>
+          <div className={styles.title}>
             <span className={styles.name}>{t("social", "Social")}</span>
           </div>
           <div className={styles.logos}>

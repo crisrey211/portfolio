@@ -7,7 +7,7 @@
 .footerUpper {
   display: flex;
   width: 100%;
-  padding: 3rem 0 5rem 0;
+  padding: var(--pt-1) 0 var(--pb-1) 0;
 }
 .name {
   display: flex;
@@ -15,6 +15,7 @@
   text-transform: uppercase;
   font-family: system-ui;
   font-weight: 700;
+  width: 50%;
 }
 
 .content {
@@ -32,11 +33,13 @@
 }
 
 .contact {
+  padding-left: var(--pl-1);
   display: flex;
   flex-direction: column;
   width: 70%;
 }
 .social {
+  padding-right: var(--pr-1);
   width: 30%;
 }
 
@@ -70,6 +73,9 @@
 .credits {
   font-weight: 300;
 }
+.title {
+  width: 5rem;
+}
 
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
@@ -82,7 +88,21 @@
     flex-direction: column;
     width: 100%;
   }
-  .footerLowest {
+  .title {
+    width: 10rem;
+  }
+  .contact {
+    width: 17rem;
+    padding-left: var(--pl-1);
+  }
+  .social {
+    width: 19rem;
+    padding-left: var(--pl-1);
+  }
+  .social,
+  .contact {
+    padding-top: var(--pt-1);
+    padding-bottom: var(--pb-1);
   }
 }
 
