@@ -3,8 +3,13 @@ import styles from "./Footer.module.css"
 import LinkedInIcon from "./icons/LinkedInIcon"
 import GithubIcon from "./icons/GithubIcon"
 import EnvelopeIcon from "./icons/EnvelopeIcon"
+import { t } from "i18next"
+import useLocalization from "../contexts/localization/useLocalization"
 
 const Footer = () => {
+  const { className, currentLanguage, changeLanguage, availableLanguages } =
+    useLocalization()
+
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.footerUpper}>
@@ -17,7 +22,7 @@ const Footer = () => {
         </div>
         <div className={styles.social}>
           <div>
-            <span className={styles.name}>Social</span>
+            <span className={styles.name}>{t("social", "Social")}</span>
           </div>
           <div className={styles.logos}>
             <LinkedInIcon
@@ -37,6 +42,8 @@ const Footer = () => {
           © Copyright 2023. Made by Christian Reynaltt
         </span>
       </div>
+      <button onClick={() => changeLanguage("es")}>es</button>
+      <button onClick={() => changeLanguage("en")}>en</button>
     </footer>
   )
 }
