@@ -14,7 +14,11 @@
   font-size: var(--text-size-description-section);
   color: gray;
   border-radius: 0.25rem;
-  border: 1px solid black;
+  border: 1px solid gray;
+  border: red;
+  background-color: white;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 .accordionItemContent {
   display: flex;
@@ -44,6 +48,12 @@
 }
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
+  .leftInformation {
+    width: 50%;
+  }
+  .rigthInformation {
+    width: 50%;
+  }
 }
 
 /* media --> iPad */

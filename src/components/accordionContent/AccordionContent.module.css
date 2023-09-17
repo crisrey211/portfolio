@@ -1,16 +1,16 @@
 .itemContentContainer {
   display: flex;
-  background-color: aliceblue;
-  border: 1px solid gray;
+  background-color: white;
   width: 100%;
   border-radius: 0.25rem;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
 .description {
   display: flex;
   justify-content: flex-start;
-  background-color: black;
-  color: white;
+  color: gray;
   width: 100%;
   text-align: start;
   font-size: var(--text-size-description-section);
@@ -18,12 +18,8 @@
 }
 
 .leftside {
-  background-color: lightskyblue;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .rightside {
-  background-color: lightgreen;
   display: flex;
   align-items: center;
 }
@@ -36,13 +32,16 @@
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  background-color: red;
+  color: gray;
 }
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .itemContentContainer {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .lowerContent {
+    display: block;
   }
 }
 
@@ -51,6 +50,9 @@
   .itemContentContainer {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .lowerContent {
+    display: flex;
   }
 }
 

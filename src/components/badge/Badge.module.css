@@ -1,6 +1,6 @@
 .container {
   color: black;
-  background-color: #eaeaea;
+  background-color: black;
   display: flex;
   border-radius: 1rem;
   width: 6rem;
@@ -12,6 +12,6 @@
 .badge {
   display: flex;
   width: auto;
-  background-color: yellow;
   font-family: "Inter";
+  color: white;
 }
