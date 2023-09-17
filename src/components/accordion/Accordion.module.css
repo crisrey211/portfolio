@@ -1,4 +1,4 @@
-.container {
+.accordionContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,27 +12,19 @@
 
   font-weight: var(--text-weight-title-description);
   font-size: var(--text-size-description-section);
-  color: white;
+  color: gray;
   border-radius: 0.25rem;
-  border-color: red yellow green transparent;
-  background-color: black;
+  border: 1px solid black;
 }
 .accordionItemContent {
-  color: #919191;
   display: flex;
-  justify-content: flex-start;
-  margin-top: 1.5rem;
-
   padding: 0.5rem 0 0.5rem 0;
-
   width: 100%;
   border-radius: 0.25rem;
-  background-color: limegreen;
 }
 .leftInformation {
   display: flex;
   align-items: center;
-  padding: 0 4rem 0 2rem;
   width: 75%;
 }
 .rigthInformation {
@@ -42,6 +34,14 @@
   width: 25%;
 }
 
+.boton {
+  display: flex;
+  padding: 0 1rem 0 1rem;
+  align-items: center;
+}
+.boton:hover {
+  cursor: pointer;
+}
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
 }

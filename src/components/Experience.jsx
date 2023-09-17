@@ -5,7 +5,7 @@ import CmzIcon from "./icons/CmzIcon"
 
 const Stack = () => {
   return (
-    <div className={styles.main} id="experience">
+    <div className={styles.mainExperience} id="experience">
       <h5 className={styles.titulo}>Professional Experience</h5>
       <div className={styles.container}>
         <Accordion

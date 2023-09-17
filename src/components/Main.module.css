@@ -10,7 +10,7 @@
 .paragraph1 {
   display: flex;
   color: #808080;
-  width: 45rem;
+  width: auto;
   padding-top: var(--pt-1);
   font-size: var(--text-size-description-section);
   font-weight: var(--text-weight-description-section);

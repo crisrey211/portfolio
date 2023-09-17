@@ -18,7 +18,7 @@ const Accordion = ({
   const [isOpened, setIsOpened] = React.useState(isOpen)
 
   return (
-    <div className={styles.container}>
+    <div className={styles.accordionContainer}>
       <div className={styles.accordionItemTitle}>
         <div className={styles.leftInformation}>
           {occupation} @ {company}

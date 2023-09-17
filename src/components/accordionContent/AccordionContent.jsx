@@ -9,7 +9,7 @@ export const AccordionContent = ({ description, location, web, logo, stack }) =>
   const stacky = stack.map((item) => item)
 
   return (
-    <div className={styles.accordionItemContent}>
+    <div className={styles.itemContentContainer}>
       <div className={styles.leftside}>
         <div className={styles.upperContent}>
           <div className={styles.location}>

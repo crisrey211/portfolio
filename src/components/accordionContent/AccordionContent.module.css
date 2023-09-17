@@ -1,17 +1,11 @@
-.accordionItemContent {
+.itemContentContainer {
   display: flex;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 0.25rem;
 }
 
-.location {
-  padding: 0 1rem 0 1rem;
-}
-.website {
-  padding: 0 1rem 0 1rem;
-}
-.logo {
-  padding-left: 1rem;
-  padding-right: 0.5rem;
-}
 .description {
   display: flex;
   justify-content: flex-start;
@@ -19,35 +13,24 @@
   color: white;
   width: 100%;
   text-align: start;
-
-  font-family: "Poppins", Sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: var(--text-size-description-section);
+  font-weight: var(--text-weight-description-section);
 }
 
-.boton {
-  display: flex;
-  padding: 0 1rem 0 1rem;
-  align-items: center;
-}
-.boton:hover {
-  cursor: pointer;
-}
 .leftside {
   background-color: lightskyblue;
-  margin: 0rem 1rem 0 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .rightside {
   background-color: lightgreen;
   display: flex;
   align-items: center;
-  width: 12rem;
-  margin-right: 2rem;
 }
 .lowerContent {
   display: flex;
   justify-content: space-around;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 .upperContent {
   display: flex;
@@ -57,10 +40,18 @@
 }
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
+  .itemContentContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
+  .itemContentContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 /* media --> monitores normales */

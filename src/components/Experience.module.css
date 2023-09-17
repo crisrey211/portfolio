@@ -1,13 +1,13 @@
-.main {
+.mainExperience {
   height: auto;
-  width: 100%;
+  width: auto;
   padding-bottom: 3rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  background-color: #fafafa;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .titulo {
