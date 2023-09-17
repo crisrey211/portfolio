@@ -13,7 +13,7 @@
   justify-content: center;
   font-family: system-ui;
   line-height: 1;
-  width: 40rem;
+  width: auto;
 
   font-size: var(--text-size-title-section);
   font-weight: var(--text-weight-title-section);
