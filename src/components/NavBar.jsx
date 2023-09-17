@@ -3,7 +3,7 @@ import MenuIcon from "./icons/MenuIcon"
 import styles from "./NavBar.module.css"
 
 const Home = () => {
-  const menuItems = ["Home", "About", "Stack", "Projects", "Contact"]
+  const menuItems = ["Home", "About", "Stack", "Experience", "Projects", "Contact"]
 
   return (
     <nav className={styles.containerHome}>

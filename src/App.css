@@ -29,6 +29,14 @@
   --end-color-1: #00dfd8;
   --end-color-2: #ff0080;
   --end-color-3: #f9cb28;
+
+  --text-size-title-section: 3.75rem;
+  --text-size-description-section: 1.25rem;
+  --text-size-title-description: 1.375rem;
+
+  --text-weight-title-section: 700;
+  --text-weight-description-section: 400;
+  --text-weight-title-description: 600;
 }
 
 .logo {

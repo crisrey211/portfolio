@@ -13,10 +13,10 @@
   justify-content: center;
   font-family: system-ui;
   line-height: 1;
-  width: 20rem;
+  width: 40rem;
 
-  font-size: 42px;
-  font-weight: 700;
+  font-size: var(--text-size-title-section);
+  font-weight: var(--text-weight-title-section);
   color: black;
 }
 

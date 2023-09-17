@@ -1,5 +1,5 @@
 .main {
-  background-color: white;
+  background-color: lightcoral;
   height: auto;
   width: 100%;
   padding-bottom: 3rem;
@@ -24,4 +24,54 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .navbar {
+    display: none;
+  }
+  .iconNav {
+    display: flex;
+    align-items: center;
+    padding-right: var(--pr-1);
+  }
+  .containerHome {
+    height: 2rem;
+    padding-top: var(--pt-1);
+    padding-bottom: var(--pb-1);
+    border-bottom: 1px solid gray;
+  }
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+  .navbar {
+    display: none;
+  }
+  .iconNav {
+    display: flex;
+    align-items: center;
+    padding-right: var(--pr-1);
+  }
+  .containerHome {
+    height: 2rem;
+    padding-top: var(--pt-1);
+    padding-bottom: var(--pb-1);
+    border-bottom: 1px solid gray;
+  }
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+  .iconNav {
+    display: none;
+  }
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
+  .iconNav {
+    display: none;
+  }
 }

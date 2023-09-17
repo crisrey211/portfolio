@@ -11,8 +11,8 @@
   line-height: 1;
   width: 100%;
   height: auto;
-  font-size: 42px;
-  font-weight: 700;
+  font-size: var(--text-size-title-section);
+  font-weight: var(--text-weight-title-section);
   color: black;
 }
 
@@ -25,8 +25,8 @@
   font-family: "Inter";
   color: #999 !important;
   text-align: start;
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: var(--text-size-description-section);
+  font-weight: var(--text-weight-description-section);
   width: 50%;
   overflow: hidden; /* Oculta el contenido que desborde */
 }

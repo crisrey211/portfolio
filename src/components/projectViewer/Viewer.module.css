@@ -37,6 +37,10 @@
   width: 75%;
   color: gray;
 }
+.title {
+  font-weight: var(--text-weight-title-description);
+  font-size: var(--text-size-title-description);
+}
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .viewContainer {
