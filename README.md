@@ -9,3 +9,6 @@ Currently, two official plugins are available:
 
 Fuente para los logs en SVG
 https://fontawesomeicons.com/svg/icons/logo-javascripts
+
+efecto de sahodw Box
+https://getcssscan.com/css-box-shadow-examples

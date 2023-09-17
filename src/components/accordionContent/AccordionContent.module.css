@@ -1,0 +1,72 @@
+.accordionItemContent {
+  display: flex;
+}
+
+.location {
+  padding: 0 1rem 0 1rem;
+}
+.website {
+  padding: 0 1rem 0 1rem;
+}
+.logo {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+.description {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: start;
+
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.boton {
+  display: flex;
+  padding: 0 1rem 0 1rem;
+  align-items: center;
+}
+.boton:hover {
+  cursor: pointer;
+}
+.leftside {
+  background-color: lightskyblue;
+  margin: 0rem 1rem 0 2rem;
+}
+.rightside {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  width: 12rem;
+  margin-right: 2rem;
+}
+.lowerContent {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0 1rem 0;
+}
+.upperContent {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: red;
+}
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
+}

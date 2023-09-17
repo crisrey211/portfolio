@@ -67,7 +67,7 @@ function App() {
         <Main />
         <About />
         <Stack />
-        {/* <Experience /> */}
+        <Experience />
         <Projects />
         <Footer />
       </MainApp>
