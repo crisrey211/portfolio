@@ -19,8 +19,6 @@ const Home = () => {
         <MenuIcon />
         <div></div>
       </div>
-      <button onClick={() => changeLanguage("es")}>es</button>
-      <button onClick={() => changeLanguage("en")}>en</button>
     </nav>
   )
 }
