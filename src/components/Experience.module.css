@@ -20,6 +20,9 @@
   font-size: 42px;
   font-weight: 700;
   color: black;
+
+  font-size: var(--text-size-title-section);
+  font-weight: var(--text-weight-title-section);
 }
 .container {
   width: 100%;

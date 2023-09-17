@@ -42,8 +42,6 @@ const Footer = () => {
           © Copyright 2023. Made by Christian Reynaltt
         </span>
       </div>
-      <button onClick={() => changeLanguage("es")}>es</button>
-      <button onClick={() => changeLanguage("en")}>en</button>
     </footer>
   )
 }
