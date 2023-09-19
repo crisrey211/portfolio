@@ -11,8 +11,9 @@
   display: flex;
   justify-content: flex-start;
   color: gray;
-  width: 100%;
+  width: 85%;
   text-align: start;
+  margin-left: var(--ml-1);
   font-size: var(--text-size-description-section);
   font-weight: var(--text-weight-description-section);
 }
@@ -22,11 +23,15 @@
 .rightside {
   display: flex;
   align-items: center;
+  margin-right: var(--mr-1);
 }
 .lowerContent {
   display: flex;
   justify-content: space-around;
   padding: 0.5rem 0 0.5rem 0;
+
+  width: 80%;
+  margin-left: 1rem;
 }
 .upperContent {
   display: flex;
@@ -34,6 +39,12 @@
   width: 100%;
   color: gray;
 }
+.location,
+.website {
+  margin-left: var(--ml-1);
+  margin-right: var(--mr-1);
+}
+
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .itemContentContainer {
@@ -42,6 +53,11 @@
   }
   .lowerContent {
     display: block;
+  }
+  .rightside {
+    margin-top: var(--mt-1);
+    margin-bottom: var(--mb-1);
+    margin-left: var(--ml-1);
   }
 }
 

@@ -30,12 +30,14 @@
   display: flex;
   align-items: center;
   width: 75%;
+  margin-left: var(--ml-1);
 }
 .rigthInformation {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   width: 25%;
+  margin-right: var(--mr-1);
 }
 
 .boton {
@@ -46,6 +48,7 @@
 .boton:hover {
   cursor: pointer;
 }
+
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .leftInformation {
