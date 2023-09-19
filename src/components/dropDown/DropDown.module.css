@@ -1,0 +1,12 @@
+.containerDropdown {
+  color: black;
+  position: relative;
+}
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  width: 5rem;
+  background-color: black;
+}
