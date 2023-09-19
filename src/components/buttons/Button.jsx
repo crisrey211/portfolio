@@ -4,9 +4,9 @@ import styles from "./Button.module.css"
 const Button = ({ text, href }) => {
   /* href = { href } */
   return (
-    <div className={styles.container} href={href}>
-      <button type="button" className={styles.button} href={href}>
-        {text}
+    <div className={styles.buttonContainer}>
+      <button type="button" className={styles.button}>
+        <a href={href}>{text}</a>
       </button>
     </div>
   )

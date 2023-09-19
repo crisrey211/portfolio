@@ -17,7 +17,7 @@
 }
 .botones {
   display: flex;
-  width: 15rem;
+  width: auto;
   padding-top: 3rem;
   justify-content: space-around;
   align-items: center;
