@@ -25,10 +25,9 @@
 }
 .lowerContent {
   display: flex;
-  justify-content: space-around;
   padding: 0.5rem 0 0.5rem 0;
 
-  width: 80%;
+  width: auto;
   margin-left: var(--ml-1);
   margin-top: var(--mt-0);
   margin-bottom: var(--mb-0);
@@ -60,7 +59,8 @@
     flex-direction: column-reverse;
   }
   .lowerContent {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
   .rightside {
     margin-top: var(--mt-1);
