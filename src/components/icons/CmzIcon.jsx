@@ -2,7 +2,12 @@ import React from "react"
 
 const CmzIcon = ({ className }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314 78.87" width="314">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 314 78.87"
+      width="314"
+      className={className}
+    >
       <path
         d="M177.1,67.32A8.06,8.06,0,0,0,184.88,59l0-.85V34.88L198,50.11l.14.13a5.93,5.93,0,0,0,7.51-.12l.07-.06,13-15.39,0,23.36v1c0,4.59,3.36,8.25,7.66,8.25h9.11V11.1H224.93s-4.07-.19-8.6,4.68L201.84,32.22,187.5,15.78c-4.17-4.5-8.6-4.68-8.6-4.68H168.11V67.32Z"
         fill="#000"

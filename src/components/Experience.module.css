@@ -16,9 +16,6 @@
   font-family: system-ui;
   line-height: 1;
   width: 20rem;
-
-  font-size: 42px;
-  font-weight: 700;
   color: black;
 
   font-size: var(--text-size-title-section);
@@ -46,6 +43,9 @@
     padding-bottom: var(--pb-1);
     border-bottom: 1px solid gray;
   }
+  .titulo {
+    font-size: 3rem;
+  }
 }
 
 /* media --> iPad */
@@ -70,6 +70,12 @@
 @media (min-width: 62rem) and (max-width: 82rem) {
   .iconNav {
     display: none;
+  }
+  .cmz {
+    width: 12rem;
+  }
+  .description {
+    width: 95%;
   }
 }
 

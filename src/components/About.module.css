@@ -107,6 +107,12 @@
     padding-left: var(--pl-3);
   }
   .information {
+    width: 80%;
+    margin-left: var(--ml-1);
+  }
+  .titulo {
+    width: 70%;
+    margin-left: var(--ml-1);
   }
 }
 
@@ -116,7 +122,12 @@
     width: 100%;
   }
   .information {
-    width: 100%;
+    width: 80%;
+    margin-left: var(--ml-1);
+  }
+  .titulo {
+    width: 70%;
+    margin-left: var(--ml-1);
   }
 }
 

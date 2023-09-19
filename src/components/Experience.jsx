@@ -19,7 +19,7 @@ const Stack = () => {
           location={"Zaldibar, España"}
           web={"www.cmz.com"}
           stack={["React", "HTML5", "CSS3", "JavaScript"]}
-          logo={<CmzIcon />}
+          logo={<CmzIcon className={styles.cmz} />}
         />
       </div>
     </div>
