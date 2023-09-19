@@ -72,10 +72,12 @@
   .work,
   .me {
     width: 100%;
+    border-right: none;
   }
 
   .rightSide {
     border-top: 1px solid gray;
+    border-right: none;
     width: 90%;
   }
   .information {
@@ -97,6 +99,7 @@
   .work,
   .me {
     width: 100%;
+    border-right: none;
   }
 
   .rightSide {

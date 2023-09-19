@@ -17,7 +17,7 @@ const Stack = () => {
             "Empecé en CMZ como desarrollador web en el 2022 y mi función principal es programar un software ERP para un uso interno de la empresa"
           }
           location={"Zaldibar, España"}
-          web={"www.CMZ.com"}
+          web={"www.cmz.com"}
           stack={["React", "HTML5", "CSS3", "JavaScript"]}
           logo={<CmzIcon />}
         />

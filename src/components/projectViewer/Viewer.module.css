@@ -49,6 +49,7 @@
   }
   .descriptionContainer {
     width: 20rem;
+    margin-left: 0;
   }
   .imageContainer {
     width: "1rem";
