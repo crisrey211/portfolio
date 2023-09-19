@@ -36,7 +36,6 @@
 }
 .rightSide {
   display: block;
-  width: 40rem;
 }
 .information {
   width: 40rem;
@@ -50,6 +49,8 @@
   font-weight: 700;
   color: black;
   width: inherit;
+  margin-top: var(--mt-5);
+  margin-bottom: var(--mb-3);
 }
 .fotoContainer {
   display: flex;
@@ -81,11 +82,10 @@
     width: 90%;
   }
   .information {
-    width: 80%;
-    margin-left: var(--ml-1);
+    width: auto;
   }
   .titulo {
-    width: 70%;
+    justify-content: center;
     margin-left: var(--ml-1);
   }
 }

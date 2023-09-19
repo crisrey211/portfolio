@@ -6,7 +6,7 @@ import Viewer from "./projectViewer/Viewer.jsx"
 const Projects = () => {
   return (
     <div id="projects" className={styles.containerProject}>
-      <h5 className={styles.titulo}>{t("projebntscts", "Proyectos")}</h5>
+      <h5 className={styles.titulo}>{t("projects", "Proyectos")}</h5>
       <div className={styles.headerContainer}>
         <p className={styles.headerText}>
           Aqui podrás ver algunos de mis proyectos personales y sus diferentes casos de

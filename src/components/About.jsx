@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./About.module.css"
+import { t } from "i18next"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       </section>
       <section className={styles.me}>
         <div className={styles.rightSide}>
-          <h5 className={styles.titulo}>About me</h5>
+          <h5 className={styles.titulo}>{t("aboutMe", "Sobre mí")}</h5>
           <div className={styles.information}>
             <p className={styles.section}>
               Soy un desarrollador Front-end Web que crea diversas aplicaciones

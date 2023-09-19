@@ -11,7 +11,7 @@
   display: flex;
   justify-content: flex-start;
   text-transform: uppercase;
-  font-family: system-ui;
+  font-family: "Inter";
   font-weight: 700;
   width: auto;
 }
@@ -24,7 +24,7 @@
   justify-content: flex-start;
   margin: 0;
   padding-top: 1rem;
-  font-family: system-ui;
+  font-family: "Inter";
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.7;
@@ -51,15 +51,15 @@
   border-top: 1px solid #444;
 }
 .logos {
-  width: auto;
   display: flex;
-  align-items: center;
   justify-content: flex-start;
   align-items: center;
   padding-top: 1rem;
 }
 .logo {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 3rem;
   height: 3rem;
 }
@@ -69,10 +69,11 @@
   fill: white;
 }
 .credits {
-  font-weight: 300;
+  font-weight: 500;
+  font-size: 1rem;
 }
 .title {
-  width: 5rem;
+  width: auto;
 }
 
 /* media --> Movil */

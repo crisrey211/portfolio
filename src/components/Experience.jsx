@@ -2,11 +2,14 @@ import React from "react"
 import Accordion from "@/components/accordion/Accordion.jsx"
 import styles from "./Experience.module.css"
 import CmzIcon from "./icons/CmzIcon"
+import { t } from "i18next"
 
 const Stack = () => {
   return (
     <div className={styles.mainExperience} id="experience">
-      <h5 className={styles.titulo}>Professional Experience</h5>
+      <h5 className={styles.titulo}>
+        {t("professionalExperience", "Experiencia Profesional")}
+      </h5>
       <div className={styles.container}>
         <Accordion
           occupation={"Front-end Developer"}

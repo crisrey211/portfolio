@@ -14,6 +14,8 @@
   font-size: var(--text-size-title-section);
   font-weight: var(--text-weight-title-section);
   color: black;
+  margin-top: var(--mt-5);
+  margin-bottom: var(--mb-3);
 }
 
 .headerContainer {
@@ -36,6 +38,9 @@
   .containerProject {
     display: flex;
     flex-direction: column;
+  }
+  .headerText {
+    width: 75%;
   }
 }
 
