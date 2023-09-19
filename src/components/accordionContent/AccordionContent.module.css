@@ -18,8 +18,6 @@
   font-weight: var(--text-weight-description-section);
 }
 
-.leftside {
-}
 .rightside {
   display: flex;
   align-items: center;
@@ -31,14 +29,23 @@
   padding: 0.5rem 0 0.5rem 0;
 
   width: 80%;
-  margin-left: 1rem;
+  margin-left: var(--ml-1);
+  margin-top: var(--mt-0);
+  margin-bottom: var(--mb-0);
 }
 .upperContent {
   display: flex;
   justify-content: flex-start;
   width: 100%;
   color: gray;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
+
+.logo {
+  margin-right: var(--mr-0);
+}
+
 .location,
 .website {
   margin-left: var(--ml-1);
