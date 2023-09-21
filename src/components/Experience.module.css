@@ -26,7 +26,9 @@
   display: flex;
   justify-content: center;
 }
-
+.cmz {
+  fill: #003da5;
+}
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .navbar {

@@ -1,12 +1,13 @@
 .containerDropdown {
   color: black;
   position: relative;
+  padding-right: 10rem;
 }
 .content {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  height: 5rem;
-  width: 5rem;
   background-color: black;
+}
+.flag {
+  cursor: pointer;
+  padding: var(--pd-0);
 }

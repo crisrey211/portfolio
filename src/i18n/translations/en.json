@@ -1,7 +1,10 @@
 {
+  "about": "about",
   "aboutMe": "About me",
-  "contact": "Contact",
-  "projects": "Projects",
+  "experience": "experience",
+  "contact": "contact",
+  "home": "home",
+  "projects": "projects",
   "social": "Social network",
   "professionalExperience": "Professional Experience",
   "portfolio": "Portfolio"

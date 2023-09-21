@@ -7,11 +7,8 @@ import { t } from "i18next"
 import useLocalization from "../contexts/localization/useLocalization"
 
 const Footer = () => {
-  const { className, currentLanguage, changeLanguage, availableLanguages } =
-    useLocalization()
-
   return (
-    <footer id="contact" className={styles.container}>
+    <footer id={`${t("contact", "Contacto")}`} className={styles.container}>
       <div className={styles.footerUpper}>
         <div className={styles.contact}>
           <span className={styles.name}>Christian Reynaltt</span>
@@ -42,8 +39,6 @@ const Footer = () => {
           © Copyright 2023. Made by Christian Reynaltt
         </span>
       </div>
-      <button onClick={() => changeLanguage("es")}>es</button>
-      <button onClick={() => changeLanguage("en")}>en</button>
     </footer>
   )
 }

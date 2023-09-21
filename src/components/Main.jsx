@@ -5,7 +5,7 @@ import { t } from "i18next"
 
 const Main = () => {
   return (
-    <div className={styles.main} id="home">
+    <div className={styles.main} id={t("home", "principal")}>
       <div className={styles.overlay}>
         <span className={`${styles.overlayTitle}  ${styles.title1}`}>
           {t("im", "I'm")}

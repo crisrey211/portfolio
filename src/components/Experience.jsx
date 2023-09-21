@@ -6,7 +6,7 @@ import { t } from "i18next"
 
 const Stack = () => {
   return (
-    <div className={styles.mainExperience} id="experience">
+    <div className={styles.mainExperience} id={t("experience", "Experience")}>
       <h5 className={styles.titulo}>
         {t("professionalExperience", "Experiencia Profesional")}
       </h5>

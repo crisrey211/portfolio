@@ -1,7 +1,10 @@
 {
+  "about": "sobre",
   "aboutMe": "Sobre mí",
-  "contact": "Contacto",
-  "projects": "Proyectos",
+  "experience": "experiencia",
+  "contact": "contacto",
+  "home": "principal",
+  "projects": "proyectos",
   "social": "Redes sociales",
   "professionalExperience": "Experiencia Profesional",
   "portfolio": "Portafolio"
