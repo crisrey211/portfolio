@@ -8,7 +8,7 @@ import useLocalization from "../contexts/localization/useLocalization"
 
 const Footer = () => {
   return (
-    <footer id={`${t("contact", "Contacto")}`} className={styles.container}>
+    <footer id="contact" className={styles.container}>
       <div className={styles.footerUpper}>
         <div className={styles.contact}>
           <span className={styles.name}>Christian Reynaltt</span>
