@@ -1,0 +1,96 @@
+.Cabecera {
+  background-color: black;
+  width: 100%;
+  /* padding: 1em; */
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Cabecera-h1 {
+}
+.Cabecera-a {
+}
+.Cabecera-button {
+  cursor: pointer;
+  display: none;
+  height: 24px;
+}
+.Cabecera-nav {
+}
+.Cabecera-ul {
+  display: flex;
+  list-style: none;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.Cabecera-li {
+  margin: 0 0.5em;
+}
+.Cabecera-svg {
+  width: 2rem;
+  height: 2em;
+  fill: white;
+}
+
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .Cabecera-button {
+    display: flex;
+  }
+  .Cabecera-nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  .Cabecera-nav.isActive {
+    opacity: 1;
+    height: 50vh;
+  }
+
+  .Cabecera-ul {
+    flex-direction: column;
+  }
+  .Cabecera-li {
+    margin: 0.5em 0;
+  }
+}
+
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+  .Cabecera-button {
+    display: flex;
+  }
+  .Cabecera-nav {
+    width: 100%;
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cabecera-nav.isActive {
+    display: flex;
+  }
+
+  .Cabecera-ul {
+    flex-direction: column;
+  }
+  .Cabecera-li {
+    margin: 0.5em 0;
+  }
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
+}
