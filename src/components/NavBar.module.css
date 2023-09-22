@@ -9,7 +9,7 @@
   background-color: white;
   z-index: 999;
 }
-.name {
+.logo {
   display: flex;
   height: auto;
   width: auto;
@@ -44,9 +44,57 @@ a {
 }
 .iconNav {
   background-color: blue;
-  position: relative;
+  position: absolute;
 }
 .menuContainer {
   position: absolute;
   background-color: red;
+}
+
+/* media --> Movil */
+@media (min-width: 0rem) and (max-width: 43rem) {
+  .containerHome ul {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    background-color: gray;
+    /* position: absolute; */
+    margin: 0;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .navbar a {
+    color: white !important;
+  }
+  .mobileOpen {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* media --> iPad */
+@media (min-width: 43rem) and (max-width: 62rem) {
+  .mobileOpen {
+    display: none;
+  }
+}
+
+/* media --> monitores normales */
+@media (min-width: 62rem) and (max-width: 82rem) {
+}
+
+/* media --> monitores normales grandes*/
+@media (min-width: 82rem) {
+  .burguer {
+    display: none;
+  }
 }
