@@ -14,9 +14,10 @@ const Projects = () => {
         </p>
       </div>
       <Viewer imagePosition={true} src="/project1.PNG">
-        Mi primer proyecto a nivel personal ha sido el portafolio, que aunque no es nada
-        complicado, requiere tiempo en el diseño del figma. Una vez hecho esa primera
-        parte, lo siguiente era maquetarlo para poder publicar mi portafolio.
+        Mi objetivo con este portafolio es compartir mi trabajo y mostrar cómo puedo
+        contribuir a proyectos emocionantes. La primera parte me ha requerido tiempo ya y
+        que hice un diseño del figma. Una vez hecho esa primera parte, lo siguiente era
+        maquetarlo e implementar funciones como DarkMode y traducciones.
       </Viewer>
     </div>
   )

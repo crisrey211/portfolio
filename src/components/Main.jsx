@@ -14,8 +14,10 @@ const Main = () => {
         <span className={`${styles.overlayTitle}  ${styles.title3}`}>Reynaltt</span>
       </div>
       <span className={styles.paragraph1}>
-        Vercel's frontend cloud gives developers the frameworks, workflows, and
-        infrastructure to build a faster, more personalized Web.
+        Bienvenido a mi portafolio personal en línea. Soy Christian, un apasionado
+        desarrollador Front-end con 1 año de experiencia en desarrollo web. Este
+        portafolio tiene como objetivo mostrar mi trayectoria profesional, proyectos
+        destacados y habilidades en desarrollo web y diseño gráfico.
       </span>
       <div className={styles.botones}>
         <Button text="Projects" href={"#projects"} />

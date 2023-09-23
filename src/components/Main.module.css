@@ -116,6 +116,9 @@ span.overlayTitle.title3::before {
     line-height: 1.1;
     position: relative;
   }
+  .paragraph1 {
+    width: 70%;
+  }
 }
 
 /* media --> iPad */
@@ -130,6 +133,9 @@ span.overlayTitle.title3::before {
     font-size: 70px;
     line-height: 1.1;
     position: relative;
+  }
+  .paragraph1 {
+    width: 70%;
   }
 }
 
