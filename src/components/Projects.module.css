@@ -50,8 +50,14 @@
 
 /* media --> monitores normales */
 @media (min-width: 62rem) and (max-width: 82rem) {
+  .headerText {
+    text-align: center;
+  }
 }
 
 /* media --> monitores normales grandes*/
 @media (min-width: 82rem) {
+  .headerText {
+    text-align: center;
+  }
 }
