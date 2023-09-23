@@ -27,6 +27,9 @@
   height: 24px;
 }
 .Cabecera-nav {
+  display: flex;
+  align-items: center;
+  padding-right: var(--pr-1);
 }
 .Cabecera-ul {
   display: flex;
