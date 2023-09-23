@@ -13,6 +13,7 @@
 }
 .Cabecera-h1 {
   padding-left: var(--pl-1);
+  margin: 0;
 }
 .Cabecera-a {
   font-family: "Inter";
@@ -65,6 +66,7 @@
 
   .Cabecera-ul {
     flex-direction: column;
+    padding: 0;
   }
   .Cabecera-li {
     margin: 0.5em 0;
@@ -94,6 +96,7 @@
 
   .Cabecera-ul {
     flex-direction: column;
+    padding: 0;
   }
   .Cabecera-li {
     margin: 0.5em 0;
