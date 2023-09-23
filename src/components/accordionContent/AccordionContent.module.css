@@ -50,6 +50,10 @@
 .website {
   margin-left: var(--ml-1);
   margin-right: var(--mr-1);
+  font-weight: 500;
+}
+.enlace {
+  color: gray !important;
 }
 
 /* media --> Movil */

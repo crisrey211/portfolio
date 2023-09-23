@@ -4,7 +4,7 @@ import { t } from "i18next"
 
 const About = () => {
   return (
-    <div className={styles.about} id={t("about", "sobre")}>
+    <div className={styles.about} id={"about"}>
       <section className={styles.work}>
         <div className={styles.leftSide}>
           <div className={styles.fotoContainer}>

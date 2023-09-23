@@ -18,7 +18,9 @@ export const AccordionContent = ({ description, location, web, logo, stack }) =>
           </div>
           <div className={styles.website}>
             <HouseDoorIcon className={styles.logo} />
-            {web}
+            <a href="https://www.cmz.com/es/" className={styles.enlace}>
+              {web}
+            </a>
           </div>
         </div>
         <div className={styles.description}>{description}</div>

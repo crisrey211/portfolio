@@ -13,8 +13,11 @@
   z-index: 999;
 }
 .Cabecera-h1 {
+  padding-left: var(--pl-1);
 }
 .Cabecera-a {
+  font-family: "Inter";
+  font-weight: 700;
   color: black;
 }
 .Cabecera-button {
