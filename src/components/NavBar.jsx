@@ -6,6 +6,7 @@ import { t } from "i18next"
 
 /* import detectarTipoDeDispositivo from "../helpers/deviceDetector" */
 import { useEffect } from "react"
+import Logo from "./icons/Logo.jsx"
 
 const Home = () => {
   const [menu, setMenu] = useState(true)
@@ -26,7 +27,7 @@ const Home = () => {
     <header className="Cabecera">
       <h1 className="Cabecera-h1">
         <a href="#" className="Cabecera-a">
-          Christian
+          <Logo />
         </a>
       </h1>
       <div className="Cabecera-button" onClick={toogleMenu}>

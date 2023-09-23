@@ -21,6 +21,7 @@
   color: black;
 }
 .Cabecera-button {
+  margin-right: var(--mr-1);
   cursor: pointer;
   display: none;
   height: 24px;
