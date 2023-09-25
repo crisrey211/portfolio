@@ -61,9 +61,9 @@ const Home = () => {
             </a>
           </li>
         </ul>
-        <div className="Cabecera-button-language">
+        {/* <div className="Cabecera-button-language">
           <DropDown />
-        </div>
+        </div> */}
       </nav>
     </header>
   )
