@@ -25,7 +25,6 @@ export const DropDown = () => {
           <div
             className={styles.flag}
             onClick={() => {
-              console.log("ingles")
               changeLanguage("en")
             }}
           >
@@ -34,7 +33,6 @@ export const DropDown = () => {
           <div
             className={styles.flag}
             onClick={() => {
-              console.log("espalol")
               changeLanguage("es")
             }}
           >

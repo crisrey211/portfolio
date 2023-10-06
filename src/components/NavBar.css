@@ -45,7 +45,9 @@
   height: 2em;
   fill: black;
 }
-
+.Cabecera-a-button {
+  cursor: pointer;
+}
 /* media --> Movil */
 @media (min-width: 0rem) and (max-width: 43rem) {
   .Cabecera-button {
