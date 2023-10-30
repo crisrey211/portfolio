@@ -7,9 +7,11 @@ import { t } from "i18next"
 /* import detectarTipoDeDispositivo from "../helpers/deviceDetector" */
 import { useEffect } from "react"
 import Logo from "./icons/Logo.jsx"
+import { useRef } from "react"
 
 const Home = () => {
   const [menu, setMenu] = useState(true)
+  const contenedorRef = useRef(null)
   const toogleMenu = () => {
     setMenu(!menu)
   }

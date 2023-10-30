@@ -8,16 +8,10 @@ const Projects = () => {
     <div id={"projects"} className={styles.containerProject}>
       <h5 className={styles.titulo}>{t("projects", "Proyectos")}</h5>
       <div className={styles.headerContainer}>
-        <p className={styles.headerText}>
-          Aqui podrás ver algunos de mis proyectos personales y sus diferentes casos de
-          estudios con sus diferentes tecnologias aplicadas en cada una de ellas.
-        </p>
+        <p className={styles.headerText}>{t("projects_header")}</p>
       </div>
       <Viewer imagePosition={true} src="/project1.PNG">
-        Mi objetivo con este portafolio es compartir mi trabajo y mostrar cómo puedo
-        contribuir a proyectos emocionantes. La primera parte me ha requerido tiempo ya y
-        que hice un diseño del figma. Una vez hecho esa primera parte, lo siguiente era
-        maquetarlo e implementar funciones como DarkMode y traducciones.
+        {t("project1_description")}
       </Viewer>
     </div>
   )

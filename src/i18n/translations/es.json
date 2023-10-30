@@ -1,11 +1,17 @@
 {
   "about": "Sobre",
-  "aboutMe": "Sobre mí",
+  "aboutMe": "Sobre mi",
   "experience": "Experiencia",
   "contact": "Contacto",
   "home": "Principal",
   "projects": "Proyectos",
   "social": "Redes sociales",
   "professionalExperience": "Experiencia Profesional",
-  "portfolio": "Portafolio"
+  "portfolio": "Portafolio",
+  "mainDescription": "Bienvenido a mi portafolio personal en línea. Soy Christian, un apasionado desarrollador Front-end con 1 año de experiencia en desarrollo web. Este portafolio tiene como objetivo mostrar mi trayectoria profesional, proyectos destacados y habilidades en desarrollo web y diseño gráfico.",
+  "projects_header": "Aqui podrás ver algunos de mis proyectos personales y sus diferentes casos de estudios con sus diferentes tecnologias aplicadas en cada una de ellas.",
+  "project1_description": "Mi objetivo con este portafolio es compartir mi trabajo y mostrar cómo puedo contribuir a proyectos emocionantes. La primera parte me ha requerido tiempo ya y que hice un diseño del figma. Una vez hecho esa primera parte, lo siguiente era maquetarlo e implementar funciones como DarkMode y traducciones.",
+  "aboutme_paragraph1": "Soy un desarrollador Front-end Web que crea diversas aplicaciones entendiendo el producto y buscando su éxito. Mira algunos de mis proyectos personales.",
+  "aboutme_paragraph2": "Me gusta compartir los conocimientos que he adquirido a lo largo de mi carrera como desarrollador, por lo que puedo ayudar a la gente en lo que pueda. Siéntete libre de contactarme o seguirme en LinkedIn.",
+  "footerDescription": "Conéctate conmigo en las redes sociales y descubre más sobre mi trabajo explorando el futuro del desarrollo web. ¡Permanece atento a emocionantes proyectos en camino!"
 }

@@ -13,15 +13,10 @@ const Main = () => {
         <span className={`${styles.overlayTitle}  ${styles.title2}`}>Christian</span>
         <span className={`${styles.overlayTitle}  ${styles.title3}`}>Reynaltt</span>
       </div>
-      <span className={styles.paragraph1}>
-        Bienvenido a mi portafolio personal en línea. Soy Christian, un apasionado
-        desarrollador Front-end con 1 año de experiencia en desarrollo web. Este
-        portafolio tiene como objetivo mostrar mi trayectoria profesional, proyectos
-        destacados y habilidades en desarrollo web y diseño gráfico.
-      </span>
+      <span className={styles.paragraph1}>{t("mainDescription")}</span>
       <div className={styles.botones}>
-        <Button text="Projects" href={"#projects"} />
-        <Button text="Contact me" href={"mailto:christian_reynaltt@hotmail.com"} />
+        <Button text={t("projects")} href={"#projects"} />
+        <Button text={t("contact")} href={"mailto:christian_reynaltt@hotmail.com"} />
       </div>
     </div>
   )
