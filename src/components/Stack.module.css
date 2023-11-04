@@ -26,38 +26,33 @@
   width: 80rem;
   padding-left: var(--pl-1);
   padding-right: var(--pr-1);
+  transform: scale();
 }
 .logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transform: scale();
+}
+.logo:hover {
+  transform: scale(1.5);
 }
 
 .html5:hover {
   fill: #e54d26;
-  width: 8rem;
-  height: 8rem;
 }
 .css:hover {
   fill: #379ad4;
-  width: 8rem;
-  height: 8rem;
 }
 .javascript:hover {
   fill: #e8d44d;
-  width: 8rem;
-  height: 8rem;
 }
 .react:hover {
   fill: #5ed4f3;
-  width: 8rem;
-  height: 8rem;
 }
 .git:hover {
   fill: #e94d2e;
-  width: 8rem;
-  height: 8rem;
 }
 span {
   color: grey;
