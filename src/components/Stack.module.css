@@ -29,14 +29,21 @@
   transform: scale();
 }
 .logo {
+  border: 1px solid var(--masala-200);
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  width: 12rem;
+  height: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: scale();
+  transform: scale(1); /* Agrega el estado inicial del transform aquí */
+  transition: transform 0.2s; /* Agrega una transición para que el cambio sea suave */
 }
+
 .logo:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .html5:hover {
@@ -65,6 +72,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     padding-top: var(--pt-1);
+    gap: 1rem;
   }
   .logo {
     width: 150px; /* Ancho de cada elemento */
@@ -82,10 +90,11 @@ span {
 /* media --> iPad */
 @media (min-width: 43rem) and (max-width: 62rem) {
   .logos {
-    width: 40rem;
+    width: 37rem;
     display: flex;
     flex-wrap: wrap;
     padding-top: var(--pt-1);
+    gap: 2rem;
   }
   .logo {
     width: 150px; /* Ancho de cada elemento */
@@ -100,6 +109,7 @@ span {
 @media (min-width: 62rem) and (max-width: 82rem) {
   .logos {
     width: 62rem;
+    gap: 1rem;
   }
 }
 

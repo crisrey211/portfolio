@@ -10,6 +10,7 @@
   backdrop-filter: blur(10px);
   position: fixed;
   z-index: 999;
+  border-color: var(--masala-300);
 }
 .Cabecera-h1 {
   padding-left: var(--pl-1);

@@ -47,6 +47,18 @@
   --text-weight-title-section: 700;
   --text-weight-description-section: 400;
   --text-weight-title-description: 600;
+
+  --masala-50: #f6f6f6;
+  --masala-100: #e7e7e7;
+  --masala-200: #d1d1d1;
+  --masala-300: #b0b0b0;
+  --masala-400: #888888;
+  --masala-500: #6d6d6d;
+  --masala-600: #5d5d5d;
+  --masala-700: #4f4f4f;
+  --masala-800: #444444;
+  --masala-900: #3d3d3d;
+  --masala-950: #262626;
 }
 
 .logo {
