@@ -1,14 +1,4 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-Fuente para los logs en SVG
-https://fontawesomeicons.com/svg/icons/logo-javascripts
-
-efecto de sahodw Box
-https://getcssscan.com/css-box-shadow-examples
+This repo was my first personally project. I wanted to try and to learn the process to do it. Nowadays, this project is migrated to Astro and the building is bette;, some styles and refactor had been fixed, but not in this repo!
+In Astro, the portfolio had been made only with HTML5 and CSS with js as little as possible.
